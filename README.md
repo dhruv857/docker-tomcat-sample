@@ -1,6 +1,8 @@
 # docker-tomcat-sample
 dockerfile and docker-compose file to run tomcat application
 
+## JRE 8, JDK8, Tomcat 8.0.47, Ubuntu 14.04
+
 # Steps to run
 
   - build docker image using **Dockerfile** (Replace Maintainer in the file to your name-email)
