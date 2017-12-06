@@ -1,0 +1,9 @@
+version: '3'
+services:
+  tomcat:
+    image: dhruv857/tomcat
+    ports:
+    - 8080:8080
+    - 9009:8009
+    volumes:
+    - .:/opt/tomcat/webapps/
